@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+  <title>Portfolio</title>
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <!-- text font -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="header">  <!-- Start of Header section -->
+    <div class="nav-bar"> <!-- Start of nav-bar -->
+    <h2 id="logo">Title</h2>
+      <ul id="nav-links">
+        <li>Home</li>
+        <li>Project</li>
+        <li>Contact</li>
+      </ul>
+    </div>  <!-- End of nav-bar -->
+
+    <div class="intro">
+      <h2>Intro</h2>
+      <p>Something</h2>
+    </div>
+
+  </div>  <!-- End of Header section -->
+
+  <div class="about">
+    <h2>About Me</h2>
+    <hr id="divider-about">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+
+  <div class="projects">  <!-- Start of Projects section -->
+    <h2 id="title">Projects</h2>
+
+    <div class="row" id="rows">
+      <div class="col-md-6">
+      <div class="card" style="width:35rem;">
+        <img class="card-img-top" src="images/43.jpg" alt="Card image cap">
+          <h4 class="card-title">Project Title</h4>
+          <p class="card-text">Description</p>
+          <a class="link-github" href="https://www.google.com">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a class="link-codepen" href="https://www.google.com">
+            <i class="fab fa-codepen fa-2x"></i>
+          </a>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card" style="width:35rem;">
+        <img class="card-img-top" src="images/43.jpg" alt="Card image cap">
+          <h4 class="card-title">Project Title</h4>
+          <p class="card-text">Description</p>
+          <a class="link-github" href="https://www.google.com">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a class="link-codepen" href="https://www.google.com">
+            <i class="fab fa-codepen fa-2x"></i>
+          </a>
+      </div>
+    </div>
+    </div> <!-- End of row -->
+  </div>  <!-- End of Projects section -->
+
+  <div class="contact"> <!-- Start of Contact section -->
+
+    <div id="contact-form">
+      <h3>Contact Me!</h3>
+
+      <form><!-- Beginning of form -->
+
+        <!-- Input field for user name -->
+        <input type="email" id="contactName" class="form-control" placeholder="Your Name..." required>
+
+        <!-- Line break -->
+        <br>
+
+        <!-- Input field for user email -->
+        <input type="email" id="contactEmail" class="form-control" placeholder="Your Email..." required>
+
+        <!-- Line break -->
+        <br>
+
+        <!-- Input field for user message -->
+        <textarea type="text" id="contactMessage" class="form-control" placeholder="Your Message..." row="3"></textarea>
+
+        <!-- Line break -->
+        <br>
+        
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form><!-- End of form -->
+    </div>
+
+  </div>  <!-- End of Contact section -->
+
+</body>
+
+</html>
