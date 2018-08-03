@@ -12,32 +12,12 @@ a {
   font-family: "Titillium Web", sans-serif;
 }
 
-/** Device styling **/
-
-@media screen and (min-width: 1380px) {
-  .grid {
-    flex-direction: column;
-  }
-
-  .profile {
-    width: 100%;
-  }
-
-  #prod-one {
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-/** Device styling **/
-
 /** Beginning of flex-grid **/
 .grid {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
 }
 /** End of flex-grid**/
 
@@ -186,3 +166,71 @@ a {
 }
 
 /** End of styling for social-links section **/
+
+/** Device styling **/
+
+@media only screen and (max-width: 1397px) {
+
+  .prod-one {
+    display: block;
+    margin-top: 5vh;
+    margin-left: 5vh;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .grid {
+    flex-direction: column;
+  }
+
+  .profile {
+    width: 100%;  }
+
+  .prod-one {
+    display: block;
+    margin-top: 5vh;
+    margin-left: 5vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .prod-one {
+    display: block;
+    margin-top: 5vh;
+    margin-left: 4vh;
+  }
+
+  .summary img{
+    margin-top: 3vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    flex-direction: column;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .prod-one {
+    display: block;
+    margin-top: 5vh;
+    margin-left: 4vh;
+  }
+
+  .summary img{
+    margin-top: 3vh;
+  }
+}
+
+/** Device styling **/
