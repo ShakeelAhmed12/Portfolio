@@ -83,7 +83,7 @@ body {
   margin: 0 auto;
 }
 
-.summary .button{
+.summary .button {
   text-align: center;
   margin-top: 15px;
   transition: 0.3s all;
@@ -153,8 +153,7 @@ body {
 
 /** Device styling **/
 @media only screen and (max-width: 1024px) {
-
-  .container{
+  .container {
     display: block;
   }
 
@@ -162,54 +161,51 @@ body {
     width: 100%;
   }
 
-  .profile img{
+  .profile img {
     margin-top: 10px;
   }
 
-  .projects{
+  .projects {
     grid-template-columns: 1fr;
     margin: auto;
   }
 
-  .card{
+  .card {
     margin: auto;
     margin-top: 2rem;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
-
   .profile {
     width: 100%;
   }
 
-  .summary img{
+  .summary img {
     margin-top: 3vh;
   }
 }
 
 @media only screen and (max-width: 425px) {
-
-  .summary{
+  .summary {
     height: 150px;
     margin-bottom: 40px;
   }
 
-  .profile{
+  .profile {
     height: 475px;
     padding-bottom: 10px;
     font-size: 0.9rem;
   }
 
-  .view-project-code{
+  .view-project-code {
     height: 300px;
     max-width: 50%;
     clear: both;
     margin-top: 80px;
   }
 
-  .summary img{
+  .summary img {
     height: 100px;
     width: 100px;
   }
@@ -219,26 +215,27 @@ body {
     width: 300px;
   }
 
-  .text-container h2, p {
+  .text-container h2,
+  p {
     font-size: 1em;
     padding: 4px;
   }
 
-  a{
+  a {
     height: 20px;
     width: 20px;
     font-size: 0.5em;
   }
 }
 
-@media only screen and (max-width: 320px){
-  
+@media only screen and (max-width: 320px) {
   .card {
     height: 270px;
     width: 270px;
   }
 
-  .text-container h2, p {
+  .text-container h2,
+  p {
     font-size: 0.9em;
     padding: 4px;
   }
