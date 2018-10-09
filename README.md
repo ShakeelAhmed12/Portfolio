@@ -1,3 +1,12 @@
 # My Portfolio Website
 
-Displaying all the projects that I've created.
+My Portfolio that will display all the web projects that I've created.
+
+# Tools & Languages
+
+* Visual Studio Code
+* Adobe Photoshop
+
+* HTML
+* CSS
+* Fontawesome
